@@ -1,0 +1,20 @@
+@font-face {
+    font-family: willow ;
+    src: url(fuentes/Willow.otf);
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(fuentes/DancingScript-VariableFont_wght.ttf);
+}
+p{
+    font-style: italic; /*esto explica cursiva*/
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family: dancing;
+    font-size: 25px;
+}
+
+h2{
+    font-family: willow;
+    font-size: 2em; /*em es unidad relativa*/
+}
